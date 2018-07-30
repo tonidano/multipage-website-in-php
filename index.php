@@ -11,11 +11,12 @@
     <link rel="manifest" href="./manifest.json">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="./assets/style0.css">
+    <link rel="stylesheet" href="./assets/style.css">
     <link rel="icon" href="icons/favicon.png" type="image/png" sizes="16x16">
 
   </head>
   <body>
     <?php include "header.php"; ?>
-
+    <?php include "footer.php"; ?>
   </body>
 </html>

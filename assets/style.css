@@ -1,0 +1,53 @@
+/*----footer-----*/
+.footer {
+    
+}
+.partenaires {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.partenairesImg {
+    padding: 0 20px;
+    width: auto !important;
+    height: 120px !important;
+}
+.liensContact{
+    margin-bottom: 30px;
+}
+.liens ul {
+    list-style: none;
+    padding-left: 30% !important;
+}
+.liens a {
+    text-decoration: none;
+    color: #AAA9AA;
+}
+.liens a:hover {
+    opacity: 0.6;
+}
+.liensLegend{
+    text-decoration: underline;
+}
+.contact {
+    text-align: center;
+}
+.adresse {
+    margin-bottom: 0 !important;
+}
+.socials{
+    text-align: center;
+}
+.socialsImg {
+    padding: 0 5px;
+    width: auto !important;
+    height: 50px !important;
+}
+
+.socials a:hover{
+    opacity: 0.6;
+}
+
+.footer p {
+    color: #AAA9AA;
+}
