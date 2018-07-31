@@ -19,7 +19,8 @@
 }
 
 .card {
-  margin-top: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .card-header, .card-body {
@@ -33,4 +34,8 @@
 .card-header {
   background-color: #349bd6 !important;
   color: white;
+}
+
+.card-body li {
+  list-style-type: none;
 }

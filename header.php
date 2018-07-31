@@ -11,17 +11,17 @@
         </ul>
         <ul class="navbar-nav nav-droite">
           <li class="nav-item">
-            <a class="nav-link"  href="./articles" target="_self" title="articles">Articles</a>
+            <a class="nav-link"  href="./index.php" target="_self" title="articles">Articles</a>
           </li>
 
           <li class="nav-item">
             <a class="nav-link"  href="#activites" target="_self" title="activités">Activités</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link"  href="#cineclubs" target="_self" title="ciné-clubs">Ciné-clubs</a>
+            <a class="nav-link"  href="./cineclub.php" target="_self" title="ciné-clubs">Ciné-clubs</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link"  href="#outilspedagogiques" target="_self" title="outils pédagogiques">Outils pédagogiques</a>
+            <a class="nav-link"  href="./outilspedagogiques.php" target="_self" title="outils pédagogiques">Outils pédagogiques</a>
           </li>
         </ul>
       </div>
