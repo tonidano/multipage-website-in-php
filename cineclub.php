@@ -18,11 +18,11 @@
             <p><strong> A la demande de partenaires associatifs ou scolaires, et des Centres Culturels, l’ASBL Loupiote organise également des séances ciné-club à destination des jeunes et des familles en Wallonie.</strong></p>
             <p>Nous collaborons notamment régulièrement avec:</p>
             <ul>
-            <li>le <a title="Ciné-club Jeunes" href="http://www.centreculturelspa.be/activites-agenda/spectacles-activites/cine-club" target="_blank">Centre Culturel de Spa</a>&nbsp;pour le&nbsp;<strong><a href="https://loupioteasbl.wordpress.com/cine-club-jeunes-de-spa/" target="_blank">Ciné-club Jeunes</a>.</strong></li>
-            <li>le <a href="http://www.ccrv.be/site/" target="_blank">Centre Culturel Régional de Verviers</a>&nbsp;pour le&nbsp;<strong><a href="https://loupioteasbl.wordpress.com/cine-club-verviers/" target="_blank">Ciné+ Famille</a>.</strong></li>
+            <li>le <a title="Ciné-club Jeunes" href="http://www.centreculturelspa.be/activites-agenda/spectacles-activites/cine-club" target="_blank">Centre Culturel de Spa</a>&nbsp;pour le&nbsp;<strong><a href="#cineclubjeunesdespa" target="_blank">Ciné-club Jeunes</a>.</strong></li>
+            <li>le <a href="http://www.ccrv.be/site/" target="_blank">Centre Culturel Régional de Verviers</a>&nbsp;pour le&nbsp;<strong><a href="#cinefamilleverviers" target="_blank">Ciné+ Famille</a>.</strong></li>
             <li>le <a title="Braine-l'alleud" href="http://www.braineculture.be" target="_blank">Centre Culturel de Braine-l’Alleud</a>&nbsp;pour diverses séances jeune public.</li>
             </ul>
-            <p>Retrouvez plus d’informations en cliquant <a href="https://loupioteasbl.wordpress.com/autres-cine-clubs/" target="_blank">ici</a>!</p>
+            <p>Retrouvez plus d’informations en cliquant <a href="#autrescine" target="_blank">ici</a>!</p>
           </div>
         </div>
       </div>
@@ -61,7 +61,7 @@
       </div>
       <div class="col-md-8">
         <div class="card">
-          <div class="card-header"><strong>Ciné-club Jeunes de Spa</strong></div>
+          <div class="card-header"  id="cineclubjeunesdespa"><strong>Ciné-club Jeunes de Spa</strong></div>
           <div class="card-body">
               <p style="text-align:justify;"><strong>A la demande de partenaires associatifs ou scolaires, et des Centres Culturels, l’ASBL Loupiote organise des séances ciné-club à destination des jeunes et des familles en Wallonie.</strong></p>
               <p style="text-align:justify;">Pour la 8ème saison consécutive, nous sommes partenaire régulier du&nbsp;Centre Culturel de Spa&nbsp;qui propose chaque année plusieurs séances jeune public animées par Loupiote, dont vous pouvez découvrir le programme complet ci-dessous.</p>
@@ -114,7 +114,7 @@
       </div>
       <div class="col-md-8">
         <div class="card">
-          <div class="card-header"><strong>Ciné + Famille Verviers</strong></div>
+          <div class="card-header" id="cinefamilleverviers"><strong>Ciné + Famille Verviers</strong></div>
           <div class="card-body">
             <p style="text-align:justify;"><strong>A la demande de partenaires associatifs ou scolaires, et des Centres Culturels, l’ASBL Loupiote organise des séances ciné-club à destination des jeunes et des familles en Wallonie.</strong></p>
             <p style="text-align:justify;">Nous sommes notamment partenaire régulier du&nbsp;Centre Culturel Régional de Verviers&nbsp;qui propose&nbsp;une série de 3 séances familiales animées par Loupiote dans le cadre des vacances scolaires (Toussaint, Carnaval et Pâques).</p>
@@ -177,7 +177,7 @@
       </div>
       <div class="col-md-8">
         <div class="card">
-          <div class="card-header"><strong>Autres Ciné-Clubs</strong></div>
+          <div class="card-header" id="autrescine"><strong>Autres Ciné-Clubs</strong></div>
           <div class="card-body">
           	<p style="text-align:justify;"><strong>A la demande de partenaires associatifs ou scolaires, et des Centres Culturels, l’ASBL Loupiote organise des séances ciné-club à destination des jeunes et des familles en Wallonie.</strong></p>
             <p style="text-align:justify;">Ces séances se basent sur la <strong>projection de long-métrages récents</strong> et laissent la place à une <strong>animation-débat</strong> autour du film. Une <strong>fiche pédagogique</strong> est remise à la sortie.</p>

@@ -6,7 +6,7 @@
       <div class="collapse navbar-collapse" id="collapsibleNavbar">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="#contact" target="_self" title="contact">Contact</a>
+            <a class="nav-link" href="./formulaire.php" target="_self" title="contact">Contact</a>
           </li>
         </ul>
         <ul class="navbar-nav nav-droite">
