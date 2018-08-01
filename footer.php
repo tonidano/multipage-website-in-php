@@ -1,7 +1,7 @@
 <div class="container-fluid bg-dark footer">
     <div class="row justify-content-center">
         <div class=" partenaires">
-            <p>Avec l’appui et le concours des organismes suivants :</p>
+            <p class="liensLegend">Avec l’appui et le concours des organismes suivants :</p>
             <ul class="list-inline">
                 <li class="list-inline-item"><img class="partenairesImg" src="./assets/images/logo_fwb.png" alt="logo FWB"></li>
                 <li class="list-inline-item"><img class="partenairesImg" src="./assets/images/logo_wallonie.png" alt="logo wallonie"> </li>
@@ -22,7 +22,7 @@
             </ul>
         </div>
         <div class="col contact">
-            <p>Contact :</p>
+            <p class="liensLegend">Contact :</p>
             <p class="adresse">Loupiote asbl</p>
             <p class="adresse">15 Boulevard de l'Empereur</p>
             <p>1000 Bruxelles</p>
@@ -45,7 +45,7 @@
                     <a href="https://plus.google.com/109538478441080391707" target="_blank"><img class="socialsImg" src="./assets/images/googleplus-logo.svg" alt="logo google plus"></a>
                 </li>
             </ul>
-            <p>&copy; Copyright - Antoni Dalle Nogare & Baptiste Firket - BeCode - 2018</p>
+            <p class="copyright">&copy; Copyright - Antoni Dalle Nogare & Baptiste Firket - BeCode - 2018</p>
         </div>
     </div>
 </div>
