@@ -16,14 +16,14 @@
           <div class="card-body">
 
 						<h2>Loupiote vous propose plusieurs outils pour aborder l’éducation citoyenne au et par le cinéma avec les jeunes que vous encadrez.</h2>
-            <p>En plus <a title="Activités Loupiote à la demande" href="https://loupioteasbl.wordpress.com/activites/" target="_blank">des activités encadrées par notre équipe </a>et disponibles à la demande dans toute la Fédération Wallonie-Bruxelles, Loupiote propose également aux enseignants, éducateurs ou travailleurs de jeunesse différents outils pédagogiques à utiliser de manière autonome.</p>
+            <p>En plus <a title="Activités Loupiote à la demande" href="./activites.php" target="_blank">des activités encadrées par notre équipe </a>et disponibles à la demande dans toute la Fédération Wallonie-Bruxelles, Loupiote propose également aux enseignants, éducateurs ou travailleurs de jeunesse différents outils pédagogiques à utiliser de manière autonome.</p>
             <p>Découvrez-les dans les onglets ci-dessous:</p>
             <ul>
-            <li><a title="Outil pédagogique contre le Cyber-harcèlement et les discours de haine en ligne" href="https://loupioteasbl.wordpress.com/ce-qui-vous-regarde-no-hate/" target="_blank">«&nbsp;Ce qui vous regarde… No Hate&nbsp;»</a> (pour les 12-20 ans)</li>
-            <li><a title="Préoccupations environnementales et engagement citoyen" href="https://loupioteasbl.wordpress.com/lapiculteuse/" target="_blank">«&nbsp;L’Apiculteuse&nbsp;»</a> (pour les 8-20 ans)</li>
-            <li><a href="https://loupioteasbl.wordpress.com/le-cinema-outil-deducation-au-vivre-ensemble/">«&nbsp;Le cinéma, outil d’éducation au&nbsp;<em>vivre-ensemble</em>«&nbsp;</a>&nbsp;(pour les 3-20 ans)</li>
-            <li><a title="50 fiches pédagogiques rédigées par Loupiote (pour le secondaire)" href="https://loupioteasbl.wordpress.com/films-a-la-fiche/" target="_blank">«&nbsp;Films à la fiche&nbsp;»</a> (pour les 12-20 ans)</li>
-            <li><a title="Fiches pédagogiques &quot;Samedis du Ciné&quot;" href="https://loupioteasbl.wordpress.com/fiche-pedagogique/" target="_blank">«&nbsp;Fiches pédagogiques des Samedis du Ciné&nbsp;»</a>&nbsp;(pour les 5-12 ans)</li>
+            <li><a title="Outil pédagogique contre le Cyber-harcèlement et les discours de haine en ligne" href="#nohate" target="_blank">«&nbsp;Ce qui vous regarde… No Hate&nbsp;»</a> (pour les 12-20 ans)</li>
+            <li><a title="Préoccupations environnementales et engagement citoyen" href="#lapiculteuse" target="_blank">«&nbsp;L’Apiculteuse&nbsp;»</a> (pour les 8-20 ans)</li>
+            <li><a href="#vivreensemble">«&nbsp;Le cinéma, outil d’éducation au&nbsp;<em>vivre-ensemble</em>«&nbsp;</a>&nbsp;(pour les 3-20 ans)</li>
+            <li><a title="50 fiches pédagogiques rédigées par Loupiote (pour le secondaire)" href="#filmsalafiche" target="_blank">«&nbsp;Films à la fiche&nbsp;»</a> (pour les 12-20 ans)</li>
+            <li><a title="Fiches pédagogiques &quot;Samedis du Ciné&quot;" href="#fichespedagogiques" target="_blank">«&nbsp;Fiches pédagogiques des Samedis du Ciné&nbsp;»</a>&nbsp;(pour les 5-12 ans)</li>
             </ul>
 
           </div>
@@ -38,7 +38,7 @@
       </div>
       <div class="col-md-8">
         <div class="card">
-          <div class="card-header"><strong>Ce qui vous regarde ... No Hate</strong></div>
+          <div class="card-header" id="nohate"><strong>Ce qui vous regarde ... No Hate</strong></div>
           <div class="card-body">
             <div class="row">
               <div class="col-md-2">
@@ -224,7 +224,7 @@
       </div>
       <div class="col-md-8">
         <div class="card">
-          <div class="card-header"><strong>L'Apiculteuse</strong></div>
+          <div class="card-header" id="lapiculteuse"><strong>L'Apiculteuse</strong></div>
           <div class="card-body">
             <div class="row">
               <div class="col-md-3">
@@ -307,7 +307,7 @@
       </div>
       <div class="col-md-8">
         <div class="card">
-          <div class="card-header"><strong>Le cinéma, outil d’éducation au « vivre ensemble »</strong></div>
+          <div class="card-header" id="vivreensemble"><strong>Le cinéma, outil d’éducation au « vivre ensemble »</strong></div>
           <div class="card-body">
             <p style="text-align:center;"><strong>L’éducation&nbsp;au cinéma au service d’une éducation à la citoyenneté active!</strong></p>
             <p style="text-align:justify;">Vous n’en doutez plus, le 7e Art est à plus d’un titre&nbsp;un formidable outil pour développer une réflexion citoyenne responsable et engager le débat en classe, en famille, dans les centres et mouvements de jeunesse.</p>
@@ -374,7 +374,7 @@
       </div>
       <div class="col-md-8">
         <div class="card">
-          <div class="card-header"><strong>Films à la Fiche</strong></div>
+          <div class="card-header" id="filmsalafiche"><strong>Films à la Fiche</strong></div>
           <div class="card-body">
           	<p style="text-align:center;"><strong>100 films pour comprendre le cinéma et le monde</strong></p>
             <p style="text-align:justify;">À la demande du ministère de la culture et de l’audiovisuel, l’asbl Loupiote a participé au projet «&nbsp;Films à la fiche&nbsp;».</p>
@@ -394,7 +394,7 @@
       </div>
       <div class="col-md-8">
         <div class="card">
-          <div class="card-header"><strong>Fiches Pédagogiques</strong></div>
+          <div class="card-header" id="fichespedagogiques"><strong>Fiches Pédagogiques</strong></div>
           <div class="card-body">
             <p style="text-align:center;"><strong>Fiches pédagogiques</strong></p>
             <p style="text-align:justify;">À l’issue de chaque Samedi du Ciné, l’équipe de Loupiote remet une fiche pédagogique aux enfants ayant participé à la séance. Cette fiche contient un bref résumé du film visionné par les enfants et surtout des pistes de réflexion sur les thèmes abordés dans le film et au cours de l’animation.</p>
