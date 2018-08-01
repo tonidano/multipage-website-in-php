@@ -1,0 +1,123 @@
+/*----header-----*/
+
+#logo {
+  width: 100%;
+}
+
+.jumbotron {
+  /* background-color: #000000 !important; */
+  background-image: url("./images/background.jpg");
+  background-repeat: no-repeat;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.nav-item a:hover {
+  color: #f9f900 !important;
+}
+
+.navbar-brand {
+  color: #f9f900 !important;
+}
+
+/*----main-----*/
+
+.card {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.card-header, .card-body {
+  text-align: center;
+}
+
+.card-body {
+  padding: 10px 20px;
+}
+
+.card-header {
+  background-color: #349bd6 !important;
+  color: white;
+}
+
+.card-body li {
+  list-style-type: none;
+}
+
+/*------about/contact-------*/
+
+h1, h2 {
+  margin-bottom: 60px !important;
+}
+
+.aboutPic {
+  margin-bottom: 30px;
+}
+
+/*----footer-----*/
+
+.partenaires {
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.partenairesImg {
+  padding: 0 20px;
+  width: auto !important;
+  height: 120px !important;
+}
+
+.liensContact {
+  margin-bottom: 30px;
+}
+
+.liens ul {
+  list-style: none;
+  padding-left: 30% !important;
+  padding-top: 5%;
+}
+
+.liens a {
+  text-decoration: none;
+  color: #AAA9AA;
+}
+
+.liens a:hover {
+  opacity: 0.6;
+}
+
+.liensLegend {
+  text-decoration: underline;
+}
+
+.contact {
+  text-align: right;
+  padding-right: 15% !important;
+}
+
+.adresse {
+  margin-bottom: 0 !important;
+}
+
+.socials {
+  text-align: center;
+}
+
+.socialsImg {
+  padding: 0 5px;
+  width: auto !important;
+  height: 50px !important;
+}
+
+.socials a:hover {
+  opacity: 0.6;
+}
+
+.footer p {
+  color: #AAA9AA;
+}
+
+.copyright {
+  font-size: 80%;
+}
