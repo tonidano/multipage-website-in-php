@@ -7,7 +7,7 @@
   <body>
 
 
-    <form action="mail.php" method="post">
+    <form action="mail.php" method="post" enctype="multipart/form-data">
     <p> <label for="">
     <input type="radio" name="titre" value="Mme">Mme
     <input type="radio" name="titre" value="Melle">Melle
@@ -35,6 +35,10 @@
     <p>  <label for="">Votre message
     <input type="textarea" name="message" value="message">
       </label></p>
+      <input type="file" name="fileToUpload" id="fileToUpload">
+      <input type="submit" value="Envoyer" name="submit">
+
+
 
       <!-- <label for="">Documents
         <input type="hidden" name="MAX_FILE_SIZE" value="1048576" />
@@ -44,7 +48,7 @@
 
     <!-- <form action="upload.php" method="post" enctype="multipart/form-data">
     Select image to upload:
-    <!-- <input type="hidden" name="MAX_FILE_SIZE" value="1048576" /> -->
+     <input type="hidden" name="MAX_FILE_SIZE" value="1048576" /> -->
     <!-- <input type="file" name="fileToUpload" id="fileToUpload">
     <input type="submit" value="Upload Image" name="submit">
   </form> -->
@@ -54,8 +58,9 @@
       <input type="radio" name="choix" value="Texte">Texte
 
         </label></p> -->
-        <button type="submit" name="envoyer">Envoyer</button>
+        <!-- <button type="submit" name="envoyer">Envoyer</button> -->
     </form>
+
 
   </body>
 </html>
