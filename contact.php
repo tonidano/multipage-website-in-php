@@ -1,3 +1,11 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <?php include 'head.php' ?>
+  </head>
+  <body>
+  <?php include 'header.php' ?>
+
 <div class="container-fluid aboutContainer">
     <h1>Qui sommes nous ?</h1>
     <div class="row about">
@@ -29,109 +37,7 @@
         </div>
     </div>
 </div>
-<div class="container-fluid formContainer">
-
-    <div class="row">
-
-        <div class="col-xs-12 col-md-8 offset-2">
-            <h2>Contactez-nous</h2>
-            <form method="post">
-                <fieldset class="form-group">
-                    <div class="row">
-                        <legend class="col-form-label col-sm-2 pt-0"><h6>titre</h6></legend>
-                        <div class="col-sm-10">
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="titreRadios" id="madameForm" value="option1" checked>
-                                <label class="form-check-label" for="madameForm">
-                                Mme
-                                </label>
-                            </div>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="titreRadios" id="melleForm" value="option2">
-                                <label class="form-check-label" for="melleForm">
-                                Melle
-                                </label>
-                            </div>
-                            <div class="form-check form-check-inline disabled">
-                                <input class="form-check-input" type="radio" name="titreRadios" id="mrForm" value="option3">
-                                <label class="form-check-label" for="mrForm">
-                                Mr.
-                                </label>
-                            </div>
-                        </div>
-                    </div>
-                </fieldset>
-                <div class="form-group row">
-                    <label for="nomForm" class="col-sm-2 col-form-label"><h6>nom</h6></label>
-                    <div class="col-sm-10">
-                        <input type="text" class="form-control" id="nomForm" placeholder="Nom">
-                    </div>
-                </div>
-                <div class="form-group row">
-                    <label for="prenomForm" class="col-sm-2 col-form-label"><h6>prenom</h6></label>
-                    <div class="col-sm-10">
-                        <input type="text" class="form-control" id="prenomForm" placeholder="Prénom">
-                    </div>
-                </div>
-                <div class="form-group row">
-                    <label for="emailForm" class="col-sm-2 col-form-label"><h6>email</h6> </label>
-                    <div class="col-sm-10">
-                        <input type="email" class="form-control" id="emailForm" placeholder="email">
-                    </div>
-                </div>
-                <fieldset class="form-group">
-                    <div class="row">
-                        <legend class="col-form-label col-sm-2 pt-0"><h6>objet</h6> </legend>
-                        <div class="col-sm-10">
-                            <div class="form-check form-check-inline">
-                                <select class="form-check-input" name="objetSelect">
-                                    <option selected>Choisissez...</option>
-                                    <option value="1">Demande d'informations</option>
-                                    <option value="2">Autre</option>
-                                </select>
-                            </div>
-                        </div>
-                    </div>
-                </fieldset>
-                <div class="form-group row">
-                    <label for="messageForm" class="col-sm-2 col-form-label"><h6>Votre message</h6> </label>
-                    <div class="col-sm-10">
-                        <textarea class="form-control" id="messageForm" name="messageForm"></textarea>
-                    </div>
-                </div>
-                <div class="form-group row">
-                    <label for="documentForm" class="col-sm-2 col-form-label"><h6>document</h6> </label>
-                    <div class="col-sm-10">
-                        <input type="file" class="form-control" id="documentForm">
-                    </div>
-                </div>
-                <fieldset class="form-group">
-                    <div class="row">
-                        <legend class="col-form-label col-sm-2 pt-0"><h6>format de réponse souhaité</h6> </legend>
-                        <div class="col-sm-10">
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="formatRadios" id="htmlForm" value="option1" checked>
-                                <label class="form-check-label" for="htmlForm">
-                                HTML
-                                </label>
-                            </div>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="formatRadios" id="texteForm" value="option2">
-                                <label class="form-check-label" for="texteForm">
-                                Texte
-                                </label>
-                            </div>
-
-                        </div>
-                    </div>
-                </fieldset>
-                <div class="form-group row">
-                    <div class="col-sm-10">
-                        <button type="submit" class="btn btn-primary">Contactez-moi</button>
-                    </div>
-                </div>
-            </form>
-        </div>
-
-    </div>
-</div>
+<?php include 'formulaire.php' ?>
+  <?php include 'footer.php' ?>
+</body>
+</html>

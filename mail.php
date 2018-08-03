@@ -139,4 +139,4 @@ if(!$mail->send()) {
 }
 ?>
 
-<?php include "formulaire.php" ?>
+<?php include "contact.php" ?>
