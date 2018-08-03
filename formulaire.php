@@ -53,11 +53,11 @@
     <input type="submit" value="Upload Image" name="submit">
   </form> -->
 
-      <!-- <p> <label for="">Format de réponse
+      <p> <label for="">Format de réponse
       <input type="radio" name="choix" value="HTML">HTML
       <input type="radio" name="choix" value="Texte">Texte
 
-        </label></p> -->
+        </label></p>
         <!-- <button type="submit" name="envoyer">Envoyer</button> -->
     </form>
 

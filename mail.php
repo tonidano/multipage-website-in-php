@@ -1,3 +1,5 @@
+<!-- // Upload fichier // -->
+
 <?php
 $target_dir = 'C:\wamp\www\multipage-website-in-php\assets\files\ ';
 $target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
@@ -42,13 +44,103 @@ if ($uploadOk == 0) {
     }
 }
 ?>
+
+<!-- // ecriture fichier txt // -->
+
 <?php
+
+$titre = $_POST['titre'];
+
+if ($titre){
+$ouvre=fopen("formulaire.txt","a+");
+fwrite($ouvre,"".$titre." ");
+fseek($ouvre, 0);
+fclose($ouvre);
+echo "Titre enregistré" ;
+}
+else
+echo "Veuillez enregistrer votre titre";
+
+$prenom = $_POST['prenom'];
+
+if ($prenom){
+$ouvre=fopen("formulaire.txt","a+");
+fwrite($ouvre,$prenom." ");
+fseek($ouvre, 0);
+fclose($ouvre);
+echo "Nom enregistré" ;
+}
+else
+echo "Veuillez enregistrer votre prénom";
+
+$nom = $_POST['nom']."\r\n";
+
+if ($nom){
+$ouvre=fopen("formulaire.txt","a+");
+fwrite($ouvre,$nom. " ");
+fseek($ouvre, 0);
+fclose($ouvre);
+echo "Nom enregistré" ;
+}
+else
+echo "Veuillez enregistrer votre nom";
+
+$email = $_POST['email']."\r\n";
+
+if ($email){
+$ouvre=fopen("formulaire.txt","a+");
+fwrite($ouvre,"Votre adresse email : ".$email." ");
+fseek($ouvre, 0);
+fclose($ouvre);
+echo "Email enregistré" ;
+}
+else
+echo "Veuillez enregistrer votre email";
+
+$message = $_POST['message']."\r\n";
+
+if ($email){
+$ouvre=fopen("formulaire.txt","a+");
+fwrite($ouvre,"Votre message : ".$message." ");
+fseek($ouvre, 0);
+fclose($ouvre);
+echo "Message enregistré" ;
+}
+else
+echo "Veuillez enregistrer votre message";
+
+$image = $_POST['fileToUpload']."\r\n";
+
+if ($image){
+$ouvre=fopen("formulaire.txt","a+");
+fwrite($ouvre,"Votre image : ".$image." ");
+fseek($ouvre, 0);
+fclose($ouvre);
+echo "Message enregistré" ;
+}
+else
+echo "Veuillez enregistrer votre message";
+?>
+
+<!-- // encodage image dans le mail// -->
+<?php
+$path = $_FILES["fileToUpload"]["tmp_name"];
+$type = pathinfo($path, PATHINFO_EXTENSION);
+$data = file_get_contents($path);
+$base64 = 'data:image/' . $type . ';base64,' . base64_encode($data);
+?>
+
+<img src="<?php echo $base64 ?>">
+<!-- // envoie email // -->
+
+<?php
+
 $titre = $_POST['titre'];
 $prenom = $_POST['prenom'];
 $nom = $_POST['nom'];
 $email = $_POST['email'];
 $message = $_POST['message'];
-$image = '<img src="./assets/files/%20'. ( $_FILES["fileToUpload"]["name"]).'" />';
+$image = '<img src="'.$base64.'">';
 
 if(isset($_POST['email'])){
   $titre = isset($_POST['titre'])?$_POST['titre']:'';
@@ -68,19 +160,35 @@ $mail->IsSMTP();
 $mail->Host = "smtp.gmail.com";
 // $mail->SMTPDebug = 2;
 $mail->SMTPAuth = true;
-$mail->Username = '';
-$mail->Password = '';
+include ('identifiants.php');
 $mail->setFrom('antoni.dallenogare@gmail.com', 'Antoni');
 $mail->addAddress('tonidano@live.be', 'Toni');
+
 $mail->Subject  = 'First PHPMailer Message';
+
+
+if($_POST['choix'] == 'HTML'){
+  $mail->IsHTML(true);
+  $mail->CharSet = 'UTF-8';
+  $mail->Body='<html><body>';
+
+  $body = '<p>Bonjour ' .$titre. ' ' .$prenom. ' ' .$nom. ', <br />  Voici votre email :  ' .$email. '<br /> Votre message est le suivant : '.$message.'.<br /> Votre image : <br />'.$image.' </p>';
+            // echo $body;
+
+  $mail->Body.='</body></html>';
+}elseif ($_POST['choix'] == 'Texte') {
+$mail->AddAttachment('./formulaire.txt', 'réponses');
+$mail->AddAttachment('./formulaire.txt', 'réponses');
 $mail->IsHTML(true);
 $mail->CharSet = 'UTF-8';
 $mail->Body='<html><body>';
 
-$body = '<p>Bonjour ' .$titre. ' ' .$prenom. ' ' .$nom. ', <br />  Voici votre email :  ' .$email. '<br /> Votre message est le suivant : '.$message.'.<br /> Votre image : '.$image.' </p>';
-echo $body;
+$body = 'Vos réponses en fichier joint';
 
-$mail->Body.='</body></html>';
+}
+
+
+
 $mail->MsgHTML($body);
 if(!$mail->send()) {
   echo 'Message was not sent.';
