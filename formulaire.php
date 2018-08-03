@@ -36,7 +36,7 @@
     <input type="textarea" name="message" value="message">
       </label></p>
       <input type="file" name="fileToUpload" id="fileToUpload">
-      <input type="submit" value="Envoyer" name="submit">
+      
 
 
 
@@ -58,7 +58,7 @@
       <input type="radio" name="choix" value="Texte">Texte
 
         </label></p>
-        <!-- <button type="submit" name="envoyer">Envoyer</button> -->
+        <button type="submit" name="envoyer">Envoyer</button>
     </form>
 
 

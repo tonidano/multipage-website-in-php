@@ -49,78 +49,21 @@ if ($uploadOk == 0) {
 
 <?php
 
-$titre = $_POST['titre'];
+$file = 'formulaire.txt';
+// Une nouvelle personne à ajouter
+$titre = $_POST['titre'].'';
+$prenom = $_POST['prenom'].'';
+$nom = $_POST['nom'].", \n";
+$email = $_POST['email']."\n";
+$message = $_POST['message'].". \n";
 
-if ($titre){
-$ouvre=fopen("formulaire.txt","a+");
-fwrite($ouvre,"".$titre." ");
-fseek($ouvre, 0);
-fclose($ouvre);
-echo "Titre enregistré" ;
-}
-else
-echo "Veuillez enregistrer votre titre";
 
-$prenom = $_POST['prenom'];
+$texte = 'Bonjour ' .$titre. ' ' .$prenom. ' ' .$nom. 'Voici votre email :  ' .$email. 'Votre message est le suivant : '.$message.'Votre image : voir en fichier joint.';
 
-if ($prenom){
-$ouvre=fopen("formulaire.txt","a+");
-fwrite($ouvre,$prenom." ");
-fseek($ouvre, 0);
-fclose($ouvre);
-echo "Nom enregistré" ;
-}
-else
-echo "Veuillez enregistrer votre prénom";
 
-$nom = $_POST['nom']."\r\n";
-
-if ($nom){
-$ouvre=fopen("formulaire.txt","a+");
-fwrite($ouvre,$nom. " ");
-fseek($ouvre, 0);
-fclose($ouvre);
-echo "Nom enregistré" ;
-}
-else
-echo "Veuillez enregistrer votre nom";
-
-$email = $_POST['email']."\r\n";
-
-if ($email){
-$ouvre=fopen("formulaire.txt","a+");
-fwrite($ouvre,"Votre adresse email : ".$email." ");
-fseek($ouvre, 0);
-fclose($ouvre);
-echo "Email enregistré" ;
-}
-else
-echo "Veuillez enregistrer votre email";
-
-$message = $_POST['message']."\r\n";
-
-if ($email){
-$ouvre=fopen("formulaire.txt","a+");
-fwrite($ouvre,"Votre message : ".$message." ");
-fseek($ouvre, 0);
-fclose($ouvre);
-echo "Message enregistré" ;
-}
-else
-echo "Veuillez enregistrer votre message";
-
-$image = $_POST['fileToUpload']."\r\n";
-
-if ($image){
-$ouvre=fopen("formulaire.txt","a+");
-fwrite($ouvre,"Votre image : ".$image." ");
-fseek($ouvre, 0);
-fclose($ouvre);
-echo "Message enregistré" ;
-}
-else
-echo "Veuillez enregistrer votre message";
+file_put_contents($file, $texte, 0);
 ?>
+
 
 <!-- // encodage image dans le mail// -->
 <?php
@@ -130,7 +73,7 @@ $data = file_get_contents($path);
 $base64 = 'data:image/' . $type . ';base64,' . base64_encode($data);
 ?>
 
-<img src="<?php echo $base64 ?>">
+<!-- <img src="<?php echo $base64 ?>"> -->
 <!-- // envoie email // -->
 
 <?php
@@ -178,13 +121,13 @@ if($_POST['choix'] == 'HTML'){
   $mail->Body.='</body></html>';
 }elseif ($_POST['choix'] == 'Texte') {
 $mail->AddAttachment('./formulaire.txt', 'réponses');
-$mail->AddAttachment('./formulaire.txt', 'réponses');
+$mail->AddAttachment($_FILES["fileToUpload"]["tmp_name"], 'image');
 $mail->IsHTML(true);
 $mail->CharSet = 'UTF-8';
 $mail->Body='<html><body>';
 
 $body = 'Vos réponses en fichier joint';
-
+$mail->Body.='</body></html>';
 }
 
 
