@@ -1,16 +1,6 @@
 {
     "require": {
-        "phpmailer/phpmailer": "^6.0"
+        "phpmailer/phpmailer": "^6.0",
+        "verot/class.upload.php": "dev-master"
     }
 }
-
-{
-     "require": {
-         "verot/class.upload.php": "dev-master"
-     }
-  }
-  {
-    "require": {
-      "silex/silex": "~1.1",
-    }
-  }
