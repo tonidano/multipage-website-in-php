@@ -106,6 +106,7 @@ $mail->SMTPAuth = true;
 include ('identifiants.php');
 $mail->setFrom('antoni.dallenogare@gmail.com', 'Antoni');
 $mail->addAddress('tonidano@live.be', 'Toni');
+$mail->addAddress($email, $prenom);
 
 $mail->Subject  = 'First PHPMailer Message';
 
