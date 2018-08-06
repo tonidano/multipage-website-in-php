@@ -1,7 +1,7 @@
 # multipage-website-in-php
 
 ## Description
-Projet réalisé pendant la formation Becode (Bruxelles)
+Projet réalisé pendant la formation Becode (Bruxelles).
 Nous devions créer un site multipage-page en suivant les consignes suivantes :
 
 > [consignes] https://github.com/becodeorg/Johnson2/tree/master/projets/multipage-website-in-php
@@ -22,7 +22,7 @@ Du 30/07/2018 au 08/08/2018
 >Baptiste Firket
 [Github] https://github.com/baptistefkt
 
-## Deployment
+## Deploiement
 
 Via Github page
 
