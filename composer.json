@@ -9,6 +9,8 @@
          "verot/class.upload.php": "dev-master"
      }
   }
-{
-  
-}
+  {
+    "require": {
+      "silex/silex": "~1.1",
+    }
+  }
