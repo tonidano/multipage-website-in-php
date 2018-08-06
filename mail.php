@@ -52,10 +52,11 @@ if ($uploadOk == 0) {
 $file = 'formulaire.txt';
 
 $titre = $_POST['titre'].'';
-$prenom = $_POST['prenom'].'';
-$nom = $_POST['nom'].", \n";
-$email = $_POST['email']."\n";
-$message = $_POST['message'].". \n";
+$prenom = filter_var($_POST['prenom'], FILTER_SANITIZE_STRING).'';
+$nom = filter_var($_POST['nom'], FILTER_SANITIZE_STRING).", \n";
+$email = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL)."\n";
+$message = filter_var($_POST['message'], FILTER_SANITIZE_STRING).". \n";
+
 
 
 $texte = 'Bonjour ' .$titre. ' ' .$prenom. ' ' .$nom. 'Voici votre email :  ' .$email. 'Votre message est le suivant : '.$message.'Votre image : voir en fichier joint.';
@@ -80,11 +81,12 @@ $base64 = 'data:image/' . $type . ';base64,' . base64_encode($data);
 <?php
 
 $titre = $_POST['titre'];
-$prenom = $_POST['prenom'];
-$nom = $_POST['nom'];
-$email = $_POST['email'];
-$message = $_POST['message'];
+$prenom = filter_input(INPUT_POST, "prenom", FILTER_SANITIZE_SPECIAL_CHARS);
+$nom = filter_input(INPUT_POST, "nom", FILTER_SANITIZE_SPECIAL_CHARS);
+$email = filter_input(INPUT_POST, "email", FILTER_VALIDATE_EMAIL);
+$message = filter_input(INPUT_POST, "message", FILTER_SANITIZE_SPECIAL_CHARS);
 $image = '<img src="'.$base64.'">';
+
 
 if(isset($_POST['email'])){
   $titre = isset($_POST['titre'])?$_POST['titre']:'';
@@ -108,7 +110,7 @@ $mail->setFrom('antoni.dallenogare@gmail.com', 'Antoni');
 $mail->addAddress('tonidano@live.be', 'Toni');
 $mail->addAddress($email, $prenom);
 
-$mail->Subject  = 'First PHPMailer Message';
+$mail->Subject  = 'Vos réponses au formulaire';
 
 
 if($_POST['choix'] == 'HTML'){
