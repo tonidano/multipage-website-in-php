@@ -1,8 +1,8 @@
 # multipage-website-in-php
 
 ## Description
-Projet réalisé pendant la formation Becode (Bruxelles).
-Nous devions créer un site multipage-page en suivant les consignes suivantes :
+Projet réalisé pendant la formation Becode (Bruxelles)
+Nous devions créer un site multipage avec un formulaire de contact fonctionnel en suivant les consignes ci-dessous :
 
 > [consignes] https://github.com/becodeorg/Johnson2/tree/master/projets/multipage-website-in-php
 
