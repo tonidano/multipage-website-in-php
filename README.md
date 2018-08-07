@@ -12,7 +12,7 @@ En utilisant HTML, CSS, framework CSS, PHP.
 
 ## Quand ?
 
-Du 30/07/2018 au 08/08/2018
+Du 30/07/2018 au 10/08/2018
 
 ## Par qui ?
 
