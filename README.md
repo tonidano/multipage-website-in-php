@@ -35,4 +35,4 @@ Via Heroku
 ## Audit
 
 >[Test Lightouse]
-"<img src="/images/lighthouse-test.PNG" alt=""/>"
+"<img src="/assets/images/lighthouse-test.png" alt=""/>"
