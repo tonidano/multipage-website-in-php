@@ -13,8 +13,9 @@
     </div>
     <div class="row justify-content-center liensContact">
         <div class="col liens">
+
             <ul>
-                <p class="liensLegend">Liens utiles :</p>
+                <li><p class="liensLegend">Liens utiles :</p></li>
                 <li><a href="http://www.samedisducine.be/index.html">Ciné-Club Les Samedis du Ciné</a></li>
                 <li><a href="http://www.centreculturelspa.be/activites-agenda/spectacles-activites/cine-club">Centre Culturel de Spa</a></li>
                 <li><a href="http://www.ccrv.be/site/">Centre Culturel Régional de Verviers</a></li>

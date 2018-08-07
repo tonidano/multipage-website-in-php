@@ -53,7 +53,7 @@
                         <legend class="col-form-label col-sm-2 pt-0"><h6>Objet du message</h6> </legend>
                         <div class="col-sm-10">
                             <div class="form-check form-check-inline">
-                                <select class="form-check-input" name="objetSelect">
+                                <label><select class="form-check-input" name="objetSelect"></label>
                                     <option selected>Choisissez...</option>
                                     <option value="1">Demande d'informations</option>
                                     <option value="2">Autre</option>
