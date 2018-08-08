@@ -8,7 +8,7 @@
   <body>
 
     <?php include "header.php" ?>
-    <?php include "activites.php" ?>
+    <?php include "articles.php" ?>
     <?php include "footer.php"; ?>
   </body>
 </html>
