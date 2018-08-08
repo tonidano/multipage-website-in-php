@@ -67,6 +67,10 @@
   list-style-type: none;
 }
 
+img, iframe {
+  max-width: 100%;
+}
+
 /*------about/contact-------*/
 
 h1, h2 {

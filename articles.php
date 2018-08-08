@@ -1,8 +1,8 @@
 
 <div class="row">
-  <div class="col-md-2">
+  <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2">
   </div>
-  <div class="col-md-8">
+  <div class="col-sm-8 col-md-8 col-lg-8 col-xl-8">
     <div class="card" id="articles">
       <div class="card-header"><strong>Stages « Réflexion cinéma et plaisirs de l’eau » à Verviers</strong></div>
       <div class="card-body">
@@ -17,14 +17,14 @@
       </div>
     </div>
   </div>
-  <div class="col-md-2">
+  <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2">
   </div>
 </div>
 
 <div class="row">
-  <div class="col-md-2">
+  <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2">
   </div>
-  <div class="col-md-8">
+  <div class="col-sm-8 col-md-8 col-lg-8 col-xl-8">
     <div class="card">
       <div class="card-header"><strong>Joachim Lafosse et Nabil Ben Yadir</strong></div>
       <div class="card-body">
@@ -39,14 +39,14 @@
       </div>
     </div>
   </div>
-  <div class="col-md-2">
+  <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2">
   </div>
 </div>
 
 <div class="row">
-  <div class="col-md-2">
+  <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2">
   </div>
-  <div class="col-md-8">
+  <div class="col-sm-8 col-md-8 col-lg-8 col-xl-8">
     <div class="card">
       <div class="card-header"><strong>« Namur… et nous! » Projection des 8 capsules</strong></div>
       <div class="card-body">
@@ -61,41 +61,41 @@
       </div>
     </div>
   </div>
-  <div class="col-md-2">
+  <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2">
   </div>
 </div>
 
 <div class="row">
-  <div class="col-md-2">
+  <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2">
   </div>
-  <div class="col-md-8">
+  <div class="col-sm-8 col-md-8 col-lg-8 col-xl-8">
     <div class="card">
       <div class="card-header"><strong>Week-end du Doc</strong></div>
       <div class="card-body">
         <p style="text-align:justify;">Loupiote et l’équipe des Samedis du Ciné vous invitent, ce <strong>18 novembre dès 10h15</strong> au <strong>Cinéma Vendôme</strong>, à la projection du documentaire belge <strong><em>Samuel in the Clouds</em></strong> de <strong>Pieter Van Eecke</strong>. Un «<strong>Débat-Réa</strong>» en compagnie du réalisateur aura lieu après le film.</p>
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6">
         <p style="text-align:center"><a href="http://www.samedisducine.be/programme.pdf"><img src="https://loupioteasbl.files.wordpress.com/2017/11/affiche-debat-samuel.jpg?w=318&amp;h=450" alt="affiche">
         </a></p>
         </div>
-          <div class="col-md-6">
+          <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6">
             <p></p>
         <p style="text-align:justify;">En Bolivie, la fonte de glaciers atteint un niveau historique. Derrière sa fenêtre, Samuel jette un regard sur le vaste paysage qui se déploie depuis un des plus hauts sommets du monde. Cela fait des générations que sa famille vit et travaille dans les montagnes enneigées, mais à présent une pénurie de neige bouleverse le mode de vie des habitants de la montagne. Alors que les scientifiques évaluent les conséquences des changements climatiques, Samuel honore les esprits ancestraux de la montagne…</p>
         </div>
       </div>
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6">
           <p></p>
           <p style="text-align:justify;">Cette rencontre est organisée dans le cadre du «<a href="https://www.we-doc.be/"><strong>Week-end du Doc</strong></a>» qui se tient du 16 au 19 novembre dans plusieurs endroits de la Fédération Wallonie-Bruxelles.</p>
           <p style="text-align:justify;">Nous espérons vous voir nombreux lors de cette séance exceptionnelle!</p>
         </div>
-          <div class="col-md-6">
+          <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6">
             <p style="text-align:center;"><a href="https://www.we-doc.be/"><img src="https://loupioteasbl.files.wordpress.com/2017/11/weekenddoc2017_large.jpg?w=210&amp;h=297" alt="wedoc"></a></p>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <div class="col-md-2">
+  <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2">
   </div>
 </div>

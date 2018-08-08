@@ -8,9 +8,9 @@
     <?php include "header.php" ?>
 
     <div class="row">
-      <div class="col-md-2">
+      <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2">
       </div>
-      <div class="col-md-8">
+      <div class="col-sm-8 col-md-8 col-lg-8 col-xl-8">
         <div class="card">
           <div class="card-header"><strong>Outils Pédagogiques</strong></div>
           <div class="card-body">
@@ -29,22 +29,22 @@
           </div>
         </div>
       </div>
-      <div class="col-md-2">
+      <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2">
       </div>
     </div>
 
     <div class="row">
-      <div class="col-md-2">
+      <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2">
       </div>
-      <div class="col-md-8">
+      <div class="col-sm-8 col-md-8 col-lg-8 col-xl-8">
         <div class="card">
           <div class="card-header" id="nohate"><strong>Ce qui vous regarde ... No Hate</strong></div>
           <div class="card-body">
             <div class="row">
-              <div class="col-md-2">
+              <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2">
             <p style="text-align:justify;"><a href="https://loupioteasbl.files.wordpress.com/2014/11/affiche-no-hate-a3-finale.png"><img src="https://loupioteasbl.files.wordpress.com/2014/11/affiche-no-hate-a3-finale.png?w=256&amp;h=350" alt="Affiche No hate A3 finale"></a></p>
             </div>
-            <div class="col-md-10">
+            <div class="col-sm-10 col-md-10 col-lg-10 col-xl-10">
             <p style="vertical-align:middle; line-height: 335px;"><strong>Un DVD et un ouvrage pour lutter contre la haine en ligne et le cyber-harcèlement</strong></p>
             </div>
             </div>
@@ -93,10 +93,10 @@
             <p style="text-align:justify;">–&nbsp;<strong>1 demi-journée d’évaluation</strong>&nbsp;dans le courant du mois de mai.</p>
             <p style="text-align:justify;">
               <div class="row">
-                <div class="col-md-6">
+                <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6">
               <img src="https://loupioteasbl.files.wordpress.com/2016/01/img_7404.jpg?w=272&amp;h=204" alt="IMG_7404">&nbsp;
                 </div>
-                <div class="col-md-6">
+                <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6">
               <img src="https://loupioteasbl.files.wordpress.com/2015/03/nohate_formationbxl.jpeg?w=272&amp;h=208" alt="NoHate_FormationBXL"></p>
                 </div>
               </div>
@@ -215,22 +215,22 @@
           </div>
         </div>
       </div>
-      <div class="col-md-2">
+      <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2">
       </div>
     </div>
 
     <div class="row">
-      <div class="col-md-2">
+      <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2">
       </div>
-      <div class="col-md-8">
+      <div class="col-sm-8 col-md-8 col-lg-8 col-xl-8">
         <div class="card">
           <div class="card-header" id="lapiculteuse"><strong>L'Apiculteuse</strong></div>
           <div class="card-body">
             <div class="row">
-              <div class="col-md-3">
+              <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
   						  <p style="text-align:center;"><strong><img src="https://loupioteasbl.files.wordpress.com/2013/10/2584092670-2.jpg?w=170&amp;h=128" alt="2584092670.2"></p>
                 </div>
-              <div class="col-md-9">
+              <div class="col-sm-9 col-md-9 col-lg-9 col-xl-9">
                 <p>Mobilisation citoyenne de la fleur au pot de miel en passant par la Ruche Européenne! &nbsp;</strong></p>
                 <pre style="text-align:center;"><strong>(+pétitions en bas de page+)</strong></pre>
                 <p style="text-align:center;"><strong>Un nouvel outil pédagogique à destination </strong></p>
@@ -242,10 +242,10 @@
               <p style="text-align:justify;">Le film se consacre à des préoccupations environnementales et d’engagement citoyen. «L’Apiculteuse» c’est Nola, une petite fille terrorisée à l’idée que les abeilles disparaissent un jour. Forte de sa volonté et de son innocence, elle se frottera à l’univers kafkaïen des institutions européennes pour parvenir à faire entendre sa voix.</p>
               <p style="text-align:justify;">Ce film met en valeur la volonté d’agir des jeunes dans l’espoir de construire un avenir meilleur. La candeur de Nola la préserve de tout cynisme, elle n’hésite pas à s’engager, portée par ses convictions et persuadée que son message sera pris en compte.</p>
               <div class="row">
-                <div class="col-md-3">
+                <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
               <p style="text-align:justify;"><img src="https://loupioteasbl.files.wordpress.com/2014/08/apiculteuse.png?w=220&amp;h=125" alt="Apiculteuse"></p>
             </div>
-              <div class="col-md-9">
+              <div class="col-sm-9 col-md-9 col-lg-9 col-xl-9">
               <P style="text-align:justify;"> Cette petite fille est le symbole de toute une génération déterminée à faire bouger les choses en faveur de la protection des abeilles et de tout l’environnement naturel qui en dépend.</p>
 
               <p style="text-align:justify;">Quels sont les réels moyens d’action des citoyens face à un système globalisé qui apparaît toujours plus impénétrable? C’est la question à laquelle les jeunes aux commandes de cet étonnant docu-fiction ont tenté de répondre…</p>
@@ -298,14 +298,14 @@
           </div>
         </div>
       </div>
-      <div class="col-md-2">
+      <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2">
       </div>
     </div>
 
     <div class="row">
-      <div class="col-md-2">
+      <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2">
       </div>
-      <div class="col-md-8">
+      <div class="col-sm-8 col-md-8 col-lg-8 col-xl-8">
         <div class="card">
           <div class="card-header" id="vivreensemble"><strong>Le cinéma, outil d’éducation au « vivre ensemble »</strong></div>
           <div class="card-body">
@@ -318,61 +318,61 @@
             <p style="text-align:center;">Bonne lecture et bon travail à tous!</p>
             <p style="text-align:justify;">
               <div class="row">
-                <div class="col-md-2">
+                <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2">
                   <a href="https://loupioteasbl.files.wordpress.com/2015/09/fichepeda37_girafe.pdf" target="_blank" rel="noopener"><img src="https://loupioteasbl.files.wordpress.com/2015/09/71ik0-mhgpl-_sl1133_-2.jpg?w=123&amp;h=179" alt="71ik0-MhgpL._SL1133_-2"></a>
                 </div>
-                <div class="col-md-2">
+                <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2">
                   <a href="https://loupioteasbl.files.wordpress.com/2015/09/fichepedaleparfumdelacarotte.pdf" target="_blank" rel="noopener"><img src="https://loupioteasbl.files.wordpress.com/2015/09/073901-2.jpg?w=131&amp;h=179" alt="073901-2"></a>
                 </div>
-                <div class="col-md-2">
+                <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2">
                   <a href="https://loupioteasbl.files.wordpress.com/2015/09/fichepeda33_prophetie_grenouilles.pdf" target="_blank" rel="noopener"><img src="https://loupioteasbl.files.wordpress.com/2015/09/18363016.jpg?w=134&amp;h=179" alt="18363016"></a>
                 </div>
-                <div class="col-md-2">
+                <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2">
                   <a href="https://loupioteasbl.files.wordpress.com/2015/09/fichepeda101_tableau.pdf" target="_blank" rel="noopener"><img src="https://loupioteasbl.files.wordpress.com/2015/09/affiche-le-tableau.jpg?w=126&amp;h=179" alt="affiche-le-tableau"></a>
                 </div>
-                <div class="col-md-2">
+                <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2">
                   <a href="https://loupioteasbl.files.wordpress.com/2015/09/fichepeda74_mains_en_air.pdf" target="_blank" rel="noopener"><img src="https://loupioteasbl.files.wordpress.com/2015/09/affiche-les-mains-en-l-air-2009-1-2.jpg?w=134&amp;h=179" alt="affiche-Les-Mains-en-l-air-2009-1-2"></a>
                 </div>
-                <div class="col-md-2">
+                <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2">
                   <a href="https://loupioteasbl.files.wordpress.com/2015/09/fichepeda137_loulouetautresloups.pdf" target="_blank" rel="noopener"><img src="https://loupioteasbl.files.wordpress.com/2015/09/affiche.jpg?w=134&amp;h=179" alt="affiche"></a>
                 </div>
               </div>
               <div class="row">
-                <div class="col-md-2">
+                <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2">
                   <a href="https://loupioteasbl.files.wordpress.com/2015/09/fichepeda_couleurdepeaumiel.pdf" target="_blank" rel="noopener"><img src="https://loupioteasbl.files.wordpress.com/2015/09/affichebelgique.jpg?w=125&amp;h=179" alt="affichebelgique"></a>
                 </div>
-                <div class="col-md-2">
+                <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2">
                   <img src="https://loupioteasbl.files.wordpress.com/2015/09/ernest-et-celestine-affiche.jpg?w=133&amp;h=181" alt="ernest-et-celestine-affiche"></p>
                 </div>
-                <div class="col-md-2">
+                <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2">
                   <a href="https://loupioteasbl.files.wordpress.com/2013/08/fichepeda168_legarconetlemonde.pdf"><img src="https://loupioteasbl.files.wordpress.com/2013/08/le-garc3a7on-et-le-monde-affiche.jpg?w=134&amp;h=179" alt="legarconetlemonde"></a>
                 </div>
-                <div class="col-md-2">
+                <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2">
                   <a href="https://loupioteasbl.files.wordpress.com/2013/08/fichepeda174_lesoiseauxdepassage.pdf"><img src="https://loupioteasbl.files.wordpress.com/2013/08/les-oiseaux-de-passage-affiche.jpg?w=134&amp;h=179" alt="lesoiseauxdepassage"></a>
                 </div>
-                <div class="col-md-2">
+                <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2">
                   <a href="https://loupioteasbl.files.wordpress.com/2018/04/fichepeda198_mimilisa.pdf"><img src="https://loupioteasbl.files.wordpress.com/2018/04/mimi-lisa.jpg?w=134&amp;h=179" alt="mimilisa"></a>
                 </div>
-                <div class="col-md-2">
+                <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2">
                   <a href="https://loupioteasbl.files.wordpress.com/2013/08/fichepeda192_maviedecourgette.pdf"><img src="https://loupioteasbl.files.wordpress.com/2013/08/ma-vie-de-courgette-affiche.jpg?w=135&amp;h=179" alt="maviedecourgette"></a>
                 </div>
               </div>
             <div class="row">
-              <div class="col-md-12">
+              <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
                 <a href="https://loupioteasbl.files.wordpress.com/2018/04/fichepeda212_iqbalpdf1.pdf"><img src="https://loupioteasbl.files.wordpress.com/2018/04/iqbal-affiche.jpg?w=137&amp;h=179" alt="pdf"></a></p>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="col-md-2">
+      <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2">
       </div>
     </div>
 
     <div class="row">
-      <div class="col-md-2">
+      <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2">
       </div>
-      <div class="col-md-8">
+      <div class="col-sm-8 col-md-8 col-lg-8 col-xl-8">
         <div class="card">
           <div class="card-header" id="filmsalafiche"><strong>Films à la Fiche</strong></div>
           <div class="card-body">
@@ -385,14 +385,14 @@
           </div>
         </div>
       </div>
-      <div class="col-md-2">
+      <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2">
       </div>
     </div>
 
     <div class="row">
-      <div class="col-md-2">
+      <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2">
       </div>
-      <div class="col-md-8">
+      <div class="col-sm-8 col-md-8 col-lg-8 col-xl-8">
         <div class="card">
           <div class="card-header" id="fichespedagogiques"><strong>Fiches Pédagogiques</strong></div>
           <div class="card-body">
@@ -404,35 +404,35 @@
             <p>&nbsp;</p>
             <p>
               <div class="row">
-                <div class="col-md-3">
+                <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
                   <a href="https://loupioteasbl.files.wordpress.com/2013/08/fichepeda16_lechienjaunedemongolie.pdf" target="_blank"><img src="https://loupioteasbl.files.wordpress.com/2013/08/le-chien-jaune-de-mongolie-affiche.jpg?w=134&amp;h=179" alt="le-chien-jaune-de-mongolie-affiche"></a>&nbsp;
                 </div>
-                <div class="col-md-3">
+                <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
                   <a href="https://loupioteasbl.files.wordpress.com/2013/08/fichepeda116_rebelle.pdf" target="_blank"><img src="https://loupioteasbl.files.wordpress.com/2013/08/rebelle-affiche.jpg?w=134&amp;h=179" alt="rebelle-affiche"></a>&nbsp;
                 </div>
-                <div class="col-md-3">
+                <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
                   <a href="https://loupioteasbl.files.wordpress.com/2013/08/fichepeda168_legarconetlemonde.pdf" target="_blank"><img src="https://loupioteasbl.files.wordpress.com/2013/08/le-garc3a7on-et-le-monde-affiche.jpg?w=134&amp;h=179" alt="le-garcon-et-le-monde-affiche"></a>&nbsp;
                 </div>
-                <div class="col-md-3">
+                <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
                   <a href="https://loupioteasbl.files.wordpress.com/2013/08/fichepeda173_lepetitprince.pdf" target="_blank"><img src="https://loupioteasbl.files.wordpress.com/2013/08/le-petit-prince-affiche.jpg?w=132&amp;h=179" alt="le-petit-prince-affiche"></a>&nbsp;
                 </div>
                 </div>
               <div class="row">
-                <div class="col-md-3">
+                <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
                   <a href="https://loupioteasbl.files.wordpress.com/2013/08/fichepeda174_lesoiseauxdepassage.pdf" target="_blank"><img src="https://loupioteasbl.files.wordpress.com/2013/08/les-oiseaux-de-passage-affiche.jpg?w=134&amp;h=179" alt="les-oiseaux-de-passage-affiche"></a>&nbsp;
                 </div>
-                <div class="col-md-3">
+                <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
                   <a href="https://loupioteasbl.files.wordpress.com/2013/08/fichepeda186_legarconetlabete.pdf" target="_blank"><img src="https://loupioteasbl.files.wordpress.com/2013/08/le-garcon-et-la-bete-affiche.jpg?w=132&amp;h=179" alt="le-garcon-et-la-bete-affiche"></a>&nbsp;
                 </div>
-                <div class="col-md-3">
+                <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
                   <a href="https://loupioteasbl.files.wordpress.com/2013/08/fichepeda187_lessaisons.pdf" target="_blank"><img src="https://loupioteasbl.files.wordpress.com/2013/08/les-saisons-affiche.jpg?w=134&amp;h=179" alt="les-saisons-affiche"></a>&nbsp;
                 </div>
-                <div class="col-md-3">
+                <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
                   <a href="https://loupioteasbl.files.wordpress.com/2013/08/fichepeda192_maviedecourgette.pdf" target="_blank"><img src="https://loupioteasbl.files.wordpress.com/2013/08/ma-vie-de-courgette-affiche.jpg?w=135&amp;h=179" alt="ma-vie-de-courgette-affiche"></a></p>
                 </div>
               </div>
           </div>
-        <div class="col-md-2">
+        <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2">
         </div>
       </div>
     </div>
