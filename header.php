@@ -1,5 +1,5 @@
     <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-      <a class="navbar-brand" href="./index.php">Loupiote ASBL</a>
+      <a class="navbar-brand" href="./">Loupiote ASBL</a>
       <button class="navbar-toggler" name="XX" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" value="XY" aria-label="hamburger">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -11,14 +11,14 @@
         </ul>
         <ul class="navbar-nav nav-droite">
           <li class="nav-item">
-            <a class="nav-link"  href="./index.php" target="_self" title="articles">Articles</a>
+            <a class="nav-link"  href="./" target="_self" title="articles">Articles</a>
           </li>
 
           <li class="nav-item">
             <a class="nav-link"  href="./activites.php" target="_self" title="activités">Activités</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link"  href="./cineclub.php" target="_self" title="ciné-clubs">Ciné-clubs</a>
+            <a class="nav-link"  href="cineclub.php" target="_self" title="ciné-clubs">Ciné-clubs</a>
           </li>
           <li class="nav-item">
             <a class="nav-link"  href="./outilspedagogiques.php" target="_self" title="outils pédagogiques">Outils pédagogiques</a>

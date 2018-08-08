@@ -95,6 +95,10 @@
                         </div>
                     </div>
                 </fieldset>
+
+                <div>
+                <label><input type="checkbox" name="conditions" value=""> En validant ce formulaire, vous donnez votre accord afin que le site puisse utiliser vos données et documents envoyés, dans le seul but de répondre à votre requête et non à des fins de marketing.</a></label>
+                </div>
                 <div class="form-group row">
                     <div class="col-sm-10">
                         <button type="submit" class="btn btn-primary">Contactez-moi</button>
