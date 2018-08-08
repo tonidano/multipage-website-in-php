@@ -53,7 +53,7 @@
                         <legend class="col-form-label col-sm-2 pt-0"><h6>Objet du message</h6> </legend>
                         <div class="col-sm-10">
                             <div class="form-check form-check-inline">
-                                <select class="form-check-input" name="objetSelect">
+                                <label><select class="form-check-input" name="objetSelect"></label>
                                     <option selected>Choisissez...</option>
                                     <option value="1">Demande d'informations</option>
                                     <option value="2">Autre</option>
@@ -95,6 +95,10 @@
                         </div>
                     </div>
                 </fieldset>
+
+                <div>
+                <label><input type="checkbox" name="conditions" value=""> En validant ce formulaire, vous donnez votre accord afin que le site puisse utiliser vos données et documents envoyés, dans le seul but de répondre à votre requête et non à des fins de marketing.</a></label>
+                </div>
                 <div class="form-group row">
                     <div class="col-sm-10">
                         <button type="submit" class="btn btn-primary">Contactez-moi</button>

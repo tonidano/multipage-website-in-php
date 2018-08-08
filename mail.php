@@ -43,6 +43,17 @@ if ($uploadOk == 0) {
         echo "Sorry, there was an error uploading your file.";
     }
 }
+
+// Validation si conditions cochées
+
+if (isset($_POST['conditions']))
+{
+    echo $_POST['conditions']; // Affiche : "on"
+}
+else
+{
+    echo 'Vous n\'avez pas coché la case.';
+}
 ?>
 
 <!-- // ecriture fichier txt // -->
@@ -94,7 +105,7 @@ if(isset($_POST['email'])){
 	$nom = isset($_POST['nom'])?$_POST['nom']:'';
 	$email = isset($_POST['email'])?$_POST['email']:'';
   $message= isset($_POST['message'])?$_POST['message']:'';
-
+  $conditions= isset($_POST['conditions'])?$_POST['conditions']:'';
 }
 
 require 'vendor/autoload.php';

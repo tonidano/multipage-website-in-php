@@ -29,8 +29,8 @@
                   <p style="text-align:justify;">L’association est reconnue comme Organisation de Jeunesse au sein de la Fédération Wallonie Bruxelles. Elle a pour mission de sensibiliser les jeunes à une lecture critique du langage cinématographique et d’aiguiser leur regard sur les médias qu’ils consomment quotidiennement. Ciné, TV, Dvd, Internet… Les images fascinent et prennent une place de plus en plus importante. En leur proposant des clefs de lecture et différents modes d’appropriation du média via leur participation active à divers projets cinématographiques, Loupiote encourage les jeunes à devenir des spectateurs actifs et critiques, prêts à faire entendre leur voix et à exercer leur rôle de citoyens responsables au sein de la société médiatique dans laquelle ils vivent.</p>
                   <p style="text-align:justify;">Dans son objectif de former des CRACS (des quoi? Citoyens Responsables Actifs Critiques et Solidaires!), l’ASBL Loupiote développe ainsi depuis plusieurs années, aux quatre coins de la Fédération Wallonie-Bruxelles, des projets innovants et plusieurs types d’activités relatifs à l’éducation des jeunes au et par le cinéma :</p>
               </div>
-              <div class="col-12">
-                  <ul style="text-align:justify;">
+              <div class="col-12" style="text-align:justify;">
+                  <ul>
                       <li>- La création d’outils pédagogiques</li>
                       <li>- Différents modules d’animation au départ de projections de films (« Les Enfants du Ciné », « Les Ados du Ciné », « Les Samedis du Ciné » et autres séances ciné-débat)</li>
                       <li>- La mise en place de projets créatifs (ateliers ou stages pratiques de jeu face caméra ou de création audiovisuelle débouchant sur la production d’un court-métrage)</li>

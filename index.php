@@ -3,12 +3,12 @@
   <head>
     <?php include "head.php" ?>
 
-
   </head>
   <body>
 
     <?php include "header.php" ?>
-    <?php include "activites.php" ?>
-    <?php include "footer.php"; ?>
+    <?php include "coockies.php" ?>
+    <?php include "articles.php" ?>
+    <?php include "footer.php" ?>
   </body>
 </html>

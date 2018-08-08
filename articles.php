@@ -35,7 +35,7 @@
         <p style="text-align:justify;">Suivra le retour de <strong>Nabil Ben Yadir</strong> (<em>Les Barons</em> et <em>La Marche</em>) le <strong>10 mars</strong> pour un débat autour de son dernier film, <strong><em>Dode Hoek</em></strong>, dans le cadre de la <a href="https://www.laquadratureducercle.be/fr/"><strong>Tournée des Magritte</strong></a>. Pour rappel, ce thriller interpelant est formidablement interprété par le désormais célèbre Peter Van den Begin et le jeune Soufiane Chilah, tous deux récompensés à la dernière cérémonie.</p>
         <p style="text-align:justify;">Deux événements «&nbsp;Cinéma Belge&nbsp;» à ne manquer sous aucun prétexte&nbsp;!</p>
         <p style="text-align:justify;">À Samedi(s)&nbsp;!</p>
-        <p><a href="https://www.laquadratureducercle.be/fr/"><img src="https://loupioteasbl.files.wordpress.com/2018/02/26239773_1506635182738459_1217975402683360780_n.jpg?w=560&amp;h=207"></a></p>
+        <p><a href="https://www.laquadratureducercle.be/fr/"><img src="https://loupioteasbl.files.wordpress.com/2018/02/26239773_1506635182738459_1217975402683360780_n.jpg?w=560&amp;h=207" alt="affiche"></a></p>
       </div>
     </div>
   </div>
