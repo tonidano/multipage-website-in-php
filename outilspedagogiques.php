@@ -57,7 +57,7 @@
             <p style="text-align:justify;"><span style="color:#ff0000;"><strong>Découvrir les vidéos</strong></span></p>
             <p style="text-align:justify;">Par l’analyse de plusieurs témoignages et d’un cas concret illustré par le court-métrage <em>Ce qui vous regarde</em>, l’ouvrage accompagnant le DVD offre au pédagogue plusieurs pistes de réflexion et d’action destinées à mieux comprendre les mécanismes de haine en ligne et à lutter efficacement contre eux.</p>
             <p style="text-align:justify;">Découvrez ci-dessous le teaser du film et l’ensemble des vidéos présentes sur le DVD&nbsp;:</p>
-            <p style="text-align:justify;"></p><div class="embed-vimeo" style="text-align: center;"><iframe src="https://player.vimeo.com/video/76951310" width="560" height="315" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe></div><p></p>
+            <p style="text-align:justify;"></p><div class="embed-vimeo" style="text-align: center;"><iframe src="https://player.vimeo.com/video/76951310" width="560" height="315" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" title="video1"></iframe></div><p></p>
             <p style="text-align:justify;">Synopsis <em>Ce qui vous regarde</em></p>
             <p style="text-align:justify;"><em>Martin, 16 ans, est un élève sans histoires, épanoui dans sa relation amoureuse avec Julie et entouré d’un bon noyau d’amis. Toutefois, il se répand sur les réseaux sociaux que Martin a été élevé par un couple homosexuel et que par conséquent, il est homosexuel lui aussi… </em></p>
             <p style="text-align:justify;"><em>À mesure que la rumeur s’amplifie sur Internet, évoluant de simples railleries en propos homophobes, Martin est exclu par ses camarades. Le phénomène de haine en ligne atteint aussi Julie, sa petite amie, progressivement rejetée elle aussi. Même si ses amis proches restent solidaires, Martin devient morose, irritable, et commence à s’absenter de l’école… </em></p>
@@ -82,7 +82,7 @@
             <p style="text-align:justify;"><span style="color:#ff0000;"><strong>Réserver une animation</strong></span></p>
             <p style="text-align:justify;">Afin d’apporter davantage son soutien aux écoles et aux associations désireuses d’entamer un travail de prévention en regard de la problématique de la haine en ligne et du cyber-harcèlement, sachez que l’ASBL Loupiote se réserve également le droit de proposer, à la demande, partout en Fédération Wallonie-Bruxelles, <strong>un <a href="http://wp.me/P3Mz9w-z1" target="_blank">module d’animation </a>itinérant de 100 minutes basé sur l’outil et destiné aux 12-18 ans.</strong></p>
             <p style="text-align:justify;">Infos et conditions concernant le module d’animation «&nbsp;No Hate&nbsp;»&nbsp;: <a href="mailto:outilpedagogique@loupiote.be">outilpedagogique(at)loupiote.be</a> – 02/6444141</p>
-            <p style="text-align:justify;"></p><div class="embed-vimeo" style="text-align: center;"><iframe src="https://player.vimeo.com/video/111100887" width="560" height="315" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe></div><p></p>
+            <p style="text-align:justify;"></p><div class="embed-vimeo" style="text-align: center;"><iframe src="https://player.vimeo.com/video/111100887" width="560" height="315" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" title="video2"></iframe></div><p></p>
             <p style="text-align:justify;"><span style="color:#ff0000;"><strong>Participer à une formation</strong></span></p>
             <p style="text-align:justify;">Vous êtes enseignants, éducateurs, médiateurs… dans une école secondaire de la Région de Bruxelles-Capitale&nbsp;? Vous êtes motivés et désirez mettre en place des mesures contre le cyber-harcèlement au sein de votre établissement&nbsp;?</p>
             <p style="text-align:justify;">Loupiote organise un module de formation&nbsp;<strong>entièrement gratuit</strong>&nbsp;axé sur&nbsp;l’utilisation de son outil DVD pédagogique «&nbsp;<a href="http://wp.me/P3Mz9w-qr" target="_blank">Ce qui vous regarde – No Hate</a>&nbsp;».</p>
@@ -254,7 +254,7 @@
               <p style="text-align:justify;"><strong>DIFFUSION</strong></p>
               <p style="text-align:justify;"><em>L’Apiculteuse</em> se destine à tout citoyen européen. Le film porte en lui plusieurs messages auxquels nous souhaitons sensibiliser tout particulièrement le jeune public (10-18 ans). Le premier est bien sûr un message d’engagement. Nola n’a que 9&nbsp;ans mais elle remue ciel et terre pour faire entendre sa voix et parvient finalement à déposer son Initiative à la commission européenne. D’autre part, le film aborde de front et informe sur la problématique de la disparition des abeilles.</p>
               <p style="text-align:justify;">Loupiote a mis en place un concept d’animation pédagogique itinérant de 100 minutes autour du film et de son making of. Ce concept fait partie des modules d’animations «Enfants du Ciné» ou «Ados du Ciné» et est adapté en fonction de l’âge des jeunes participants. Nous organisons ces animations, à la demande, dans les milieux associatifs et scolaires de la Fédération Wallonie-Bruxelles. En voici la bande annonce :</p>
-              <div class="embed-vimeo" style="text-align: center;"><iframe src="https://player.vimeo.com/video/95586209" width="640" height="360" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe></div>
+              <div class="embed-vimeo" style="text-align: center;"><iframe src="https://player.vimeo.com/video/95586209" width="640" height="360" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" title="video3"></iframe></div>
               <p><a href="https://vimeo.com/95586209">L’Apiculteuse… veut voir le Roi de l’Europe… et vous?</a> from <a href="https://vimeo.com/loupioteasbl">Loupiote</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
               <p><strong>SOUTENIR LES ABEILLES</strong></p>
               <p style="text-align:left;">Vous désirez soutenir les abeilles, plusieurs actions sont possibles :<br>
@@ -345,21 +345,21 @@
                   <img src="https://loupioteasbl.files.wordpress.com/2015/09/ernest-et-celestine-affiche.jpg?w=133&amp;h=181" alt="ernest-et-celestine-affiche"></p>
                 </div>
                 <div class="col-md-2">
-                  <a href="https://loupioteasbl.files.wordpress.com/2013/08/fichepeda168_legarconetlemonde.pdf"><img src="https://loupioteasbl.files.wordpress.com/2013/08/le-garc3a7on-et-le-monde-affiche.jpg?w=134&amp;h=179" alt=""></a>
+                  <a href="https://loupioteasbl.files.wordpress.com/2013/08/fichepeda168_legarconetlemonde.pdf"><img src="https://loupioteasbl.files.wordpress.com/2013/08/le-garc3a7on-et-le-monde-affiche.jpg?w=134&amp;h=179" alt="legarconetlemonde"></a>
                 </div>
                 <div class="col-md-2">
-                  <a href="https://loupioteasbl.files.wordpress.com/2013/08/fichepeda174_lesoiseauxdepassage.pdf"><img src="https://loupioteasbl.files.wordpress.com/2013/08/les-oiseaux-de-passage-affiche.jpg?w=134&amp;h=179" alt=""></a>
+                  <a href="https://loupioteasbl.files.wordpress.com/2013/08/fichepeda174_lesoiseauxdepassage.pdf"><img src="https://loupioteasbl.files.wordpress.com/2013/08/les-oiseaux-de-passage-affiche.jpg?w=134&amp;h=179" alt="lesoiseauxdepassage"></a>
                 </div>
                 <div class="col-md-2">
-                  <a href="https://loupioteasbl.files.wordpress.com/2018/04/fichepeda198_mimilisa.pdf"><img src="https://loupioteasbl.files.wordpress.com/2018/04/mimi-lisa.jpg?w=134&amp;h=179" alt=""></a>
+                  <a href="https://loupioteasbl.files.wordpress.com/2018/04/fichepeda198_mimilisa.pdf"><img src="https://loupioteasbl.files.wordpress.com/2018/04/mimi-lisa.jpg?w=134&amp;h=179" alt="mimilisa"></a>
                 </div>
                 <div class="col-md-2">
-                  <a href="https://loupioteasbl.files.wordpress.com/2013/08/fichepeda192_maviedecourgette.pdf"><img src="https://loupioteasbl.files.wordpress.com/2013/08/ma-vie-de-courgette-affiche.jpg?w=135&amp;h=179" alt=""></a>
+                  <a href="https://loupioteasbl.files.wordpress.com/2013/08/fichepeda192_maviedecourgette.pdf"><img src="https://loupioteasbl.files.wordpress.com/2013/08/ma-vie-de-courgette-affiche.jpg?w=135&amp;h=179" alt="maviedecourgette"></a>
                 </div>
               </div>
             <div class="row">
               <div class="col-md-12">
-                <a href="https://loupioteasbl.files.wordpress.com/2018/04/fichepeda212_iqbalpdf1.pdf"><img src="https://loupioteasbl.files.wordpress.com/2018/04/iqbal-affiche.jpg?w=137&amp;h=179" alt=""></a></p>
+                <a href="https://loupioteasbl.files.wordpress.com/2018/04/fichepeda212_iqbalpdf1.pdf"><img src="https://loupioteasbl.files.wordpress.com/2018/04/iqbal-affiche.jpg?w=137&amp;h=179" alt="pdf"></a></p>
               </div>
             </div>
           </div>
