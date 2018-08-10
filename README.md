@@ -27,7 +27,7 @@ Du 30/07/2018 au 10/08/2018
 >Baptiste Firket
 [Github] https://github.com/baptistefkt
 
-## Deploiement
+## Déploiement
 
 Via Github page
 
@@ -35,7 +35,8 @@ Via Github page
 
 Via Heroku
 
-> https://multipagewebsite-in-php.herokuapp.com/index.php
+> [Déploiement avec le frontend d'Antoni] https://multipagewebsite-in-php.herokuapp.com/index.php
+> [Déploiement avec le frontend de Baptiste] https://multipagewebsite-in-php.herokuapp.com/index.php
 
 ## Audit
 
