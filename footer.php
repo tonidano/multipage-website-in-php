@@ -12,7 +12,7 @@
         </div>
     </div>
     <div class="row justify-content-center liensContact">
-        <div class="col liens">
+        <div class="col-md-6 liens">
 
             <ul>
                 <li><p class="liensLegend">Liens utiles :</p></li>
@@ -22,7 +22,7 @@
                 <li><a href="http://www.braineculture.be/">Centre Culturel de Braine-l’Alleud</a> </li>
             </ul>
         </div>
-        <div class="col contact">
+        <div class="col-md-6 contact">
             <p class="liensLegend">Contact :</p>
             <p class="adresse">Loupiote asbl</p>
             <p class="adresse">15 Boulevard de l'Empereur</p>
