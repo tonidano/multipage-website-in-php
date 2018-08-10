@@ -6,6 +6,11 @@ Nous devions créer un site multipage avec un formulaire de contact fonctionnel 
 
 > [consignes] https://github.com/becodeorg/Johnson2/tree/master/projets/multipage-website-in-php
 
+Le site de l'association > http://www.loupiote.be/
+
+>[UML du formulaire]
+<img src="/assets/images/UML.png" alt=""/>
+
 ## Comment ?
 
 En utilisant HTML, CSS, framework CSS, PHP.

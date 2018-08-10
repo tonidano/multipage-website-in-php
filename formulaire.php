@@ -97,11 +97,11 @@
                 </fieldset>
 
                 <div>
-                <label><input type="checkbox" name="conditions" value=""> En validant ce formulaire, vous donnez votre accord afin que le site puisse utiliser vos données et documents envoyés, dans le seul but de répondre à votre requête et non à des fins de marketing.</a></label>
+                <label><input type="checkbox" name="conditions" value="" id="checkbox"> En validant ce formulaire, vous donnez votre accord afin que le site puisse utiliser vos données et documents envoyés, dans le seul but de répondre à votre requête et non à des fins de marketing.</a></label>
                 </div>
                 <div class="form-group row">
                     <div class="col-sm-10 col-md-10 col-lg-10 col-xl-10">
-                        <button type="submit" class="btn btn-primary">Contactez-moi</button>
+                        <button type="submit" class="btn btn-primary" onClick="verif_champs();">Contactez-moi</button>
                     </div>
                 </div>
             </form>
@@ -109,3 +109,48 @@
 
     </div>
 </div>
+
+</head>
+<script type="text/javascript">
+//fonction verif des champs avant envoi
+function verif_champs(){
+
+var nom=document.getElementById('nomForm');
+if(nom.value ==""){
+alert ("Vous devez saisir un nom !");
+nomForm.focus(); //on met le focus sur le champ concerné
+return false; // on sort de la fonction et on empeche le form d'etre envoyé
+}
+
+var prenom=document.getElementById('prenomForm');
+if(prenom.value ==""){
+alert ("Vous devez saisir un prénom !");
+prenonForm.focus(); //on met le focus sur le champ concerné
+return false; // on sort de la fonction et on empeche le form d'etre envoyé
+}
+
+var email=document.getElementById('emailForm');
+if(email.value ==""){
+alert ("Vous devez saisir une adresse email !");
+emailForm.focus(); //on met le focus sur le champ concerné
+return false; // on sort de la fonction et on empeche le form d'etre envoyé
+}
+
+var message=document.getElementById('messageForm');
+if(message.value ==""){
+alert ("Vous devez saisir un message !");
+messageForm.focus(); //on met le focus sur le champ concerné
+return false; // on sort de la fonction et on empeche le form d'etre envoyé
+}
+
+if(!isset($_POST['conditions'])){
+alert ("Vous devez cocher les conditions d'utilisation de vos données !");
+checkbox.focus(); //on met le focus sur le champ concerné
+return false; // on sort de la fonction et on empeche le form d'etre envoyé
+}
+//si on est arrivé jusque là c'est qui n'y a pas d'erreur
+//donc on autorise l'envoi du form
+return true;
+
+}
+</script>
