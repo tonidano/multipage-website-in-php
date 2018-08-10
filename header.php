@@ -1,5 +1,6 @@
-    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-      <a class="navbar-brand" href="./index.php">Loupiote ASBL</a>
+<div class="container-fluid backPicture">
+    <nav class="navbar navbar-expand-md">
+      <a class="navbar-brand" href="./index.php">LOUPIOTE asbl</a>
       <button class="navbar-toggler" name="XX" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" value="XY" aria-label="hamburger">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -26,9 +27,10 @@
         </ul>
       </div>
     </nav>
+</div>
 
-    <div class="jumbotron jumbotron-fluid">
+    <!-- <div class="jumbotron jumbotron-fluid">
       <div class="container">
         <img src="./assets/images/logo.png" alt="logo" id="logo">
       </div>
-    </div>
+    </div> -->

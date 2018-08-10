@@ -101,7 +101,7 @@
                 </div>
                 <div class="form-group row">
                     <div class="col-sm-10">
-                        <button type="submit" class="btn btn-primary">Contactez-moi</button>
+                        <button type="submit" class="btn btn-dark">Contactez-moi</button>
                     </div>
                 </div>
             </form>

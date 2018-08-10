@@ -1,23 +1,57 @@
-/*----header-----*/
+/*----global-----*/
 
-#logo {
-  width: 100%;
+body {
+    background-color: #E6FFD6;
 }
 
-.jumbotron {
-  /* background-color: #000000 !important; */
+/*----header-----*/
+
+/* #logo {
+  width: 100%;
+} */
+
+/* .jumbotron {
+  background-color: #000000 !important;
   background-image: url("./images/background.jpg");
   background-repeat: no-repeat;
   padding-top: 0px;
   padding-bottom: 0px;
+} */
+
+.logoCont {
+    font-size: 7em;
 }
 
+.backPicture {
+    background-image: url("./images/bgHeader.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+}
+
+@media all and (min-width: 992px) {
+    .backPicture{
+        background-image: url("./images/bgLargeHeader.jpg");
+    }
+
+}
+.nav-link {
+    color : #78524E;
+    text-shadow: 1px 1px white;
+
+}
 .nav-item a:hover {
-  color: #f9f900 !important;
+  color: #78524E !important;
+  border-bottom: 2px solid #78524E;
+  text-shadow: 1px 1px white;
 }
 
 .navbar-brand {
-  color: #f9f900 !important;
+  color: #78524E !important;
+  font-weight: bold;
+}
+.navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#78524E' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
 /* ALERTE COOCKIES */
@@ -59,8 +93,10 @@
 }
 
 .card-header {
-  background-color: #349bd6 !important;
+  background-color: #2b2b2b !important;
   color: white;
+  border: 2px dashed white;
+   /* border-bottom: 2px dashed white; */
 }
 
 .card-body li {
@@ -79,16 +115,22 @@ h1, h2 {
 
 /*----footer-----*/
 
+.footer {
+    background-color: #2b2b2b !important;
+}
+
 .partenaires {
   text-align: center;
   margin-bottom: 30px;
   margin-top: 30px;
+
 }
 
 .partenairesImg {
   padding: 0 20px;
   width: auto !important;
   height: 120px !important;
+  opacity: 0.7;
 }
 
 .liensContact {
